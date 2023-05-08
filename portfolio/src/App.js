@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import HeaderImage from './assets/HeaderImage';
-
+import RockPaperScissors from './components/RockPaperScissors';
 
 function App() {
   return (
@@ -39,6 +39,12 @@ function App() {
             </li>
           </ul>
         </nav>
+      </div>
+      <div className="flex flex-col items-center justify-center mt-8">
+        <h1>Being built!</h1>
+        <p>In the mean time, here's a game!</p>
+        <RockPaperScissors /><br />
+        {/* <footer>2023</footer> */}
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
